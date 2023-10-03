@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const tasksFromCookie = getCookie("tasks");
   if (tasksFromCookie) {
     todoLists.innerHTML = tasksFromCookie;
-    allTasks(); // Atualiza o contador de tarefas pendentes
+    allTasks();
   }
 });
 
